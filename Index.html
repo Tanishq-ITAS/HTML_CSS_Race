@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rabbit Olympics 2021</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="racing-container">
+      <div class="race-lanes">
+        <div class="race-lane">
+          <img
+            src="rabbit-1.png"
+            alt="Rabbit 1"
+            class="race-rabbit js-rabbit-1"
+            id="rabbit-1"
+          />
+        </div>
+        <div class="race-lane">
+          <img
+            src="rabbit-2.png"
+            alt="Rabbit 2"
+            class="race-rabbit js-rabbit-2"
+            id="rabbit-2"
+          />
+        </div>
+        <div class="race-lane">
+          <img
+            src="rabbit-3.png"
+            alt="Rabbit 3"
+            class="race-rabbit js-rabbit-3"
+            id="rabbit-3"
+          />
+        </div>
+        <div class="race-lane">
+          <img
+            src="rabbit-4.png"
+            alt="Rabbit 4"
+            class="race-rabbit js-rabbit-4"
+            id="rabbit-4"
+          />
+        </div>
+      </div>
+      <div class="race-startline"></div>
+      <div class="race-finishline"></div>
+    </div>
+    <button class="btn btn-default js-btn-start-race">Start</button>
+    <button class="btn btn-default js-btn-stop-race" disabled>Stop</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/domready/1.0.8/ready.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
